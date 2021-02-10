@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>whos my girlfriend...</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="js-clock">
-        <h1>00:00</h1>
+    <div class="css-weather">
+        <span class="js-weather"></span>
     </div>
-    <form class="js-form form">
-        <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList">
-    </ul>
-    <span class="js-weather"></span>
+    <main class="main">
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+        <form class="js-form form">
+            <input class="css-input" type="text" placeholder="Type your name here" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <div class="css-greetings">
+            <form class="js-toDoForm">
+                <input type="text" placeholder="Write To Do here" />
+            </form>
+            <ul class="js-toDoList">
+            </ul>
+        </div>
+    </main>
+    
     <script src="clock.js"></script>
     <script src="gretting.js"></script>
     <script src="todo.js"></script>
